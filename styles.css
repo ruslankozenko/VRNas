@@ -1,0 +1,159 @@
+/* ============== COMMON STYLES ============== */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+button {
+    cursor: pointer;
+}
+
+.list {
+    list-style-type: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+body {
+    font-family: "Chakra Petch", sans-serif;
+    background-color: #18181b;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.container {
+    min-width: 320px;
+    margin: auto;
+}
+
+/* ============== MOBILE HEADER ============== */
+
+.header-menu {
+    display: none;
+}
+
+.header-vr-button {
+    display: none;
+}
+
+.header-vr {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.header-container {
+    padding-left: 16px;
+    padding-right: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mobile-menu-open-btn {
+    width: 32px;
+    height: 32px;
+    background: none;
+    border-top: 2px solid rgb(12, 186, 241);
+    border-left: 2px solid rgb(12, 186, 241);
+    border-bottom: 2px solid rgb(233, 92, 233);
+    border-right: 2px solid rgb(233, 92, 233);
+}
+
+.mobile-menu-open-btn-icon {
+    display: flex;
+}
+
+.logo-icon {
+   fill: aliceblue;
+}
+
+.wrapper {
+    background: url(./icon/waves.svg) top right no-repeat;
+}
+
+/* ============== /MOBILE HEADER ============== */
+
+@media screen and (min-width: 768px) {
+    
+/* ============== TABLET HEADER ============== */
+
+.header-mobil-button {
+    display: none;
+}
+
+.header-menu {
+    display: flex;
+    gap: 40px;
+    margin-left: 60px;
+}
+
+.header-vr-button {
+    display: block;
+}
+
+.header-vr {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.header-container {
+    padding: 10px 20px;
+    max-width: 768px;
+    height: 52px;
+}
+
+.header-navigation {
+    display: flex;
+    align-items: center;
+}
+
+.menu-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.75;
+    color: #fff;
+}
+
+.header-icon {
+    fill: #fff;
+}
+
+/* ============== /TABLET HEADER ============== */
+}
+
+@media screen and (min-width: 1440px) {
+
+}

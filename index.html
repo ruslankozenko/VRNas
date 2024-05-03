@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>VRNas</title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -18,59 +19,75 @@
   </head>
   <body>
     <!-- Header -->
-
-    <header class="header-vr">
-      <div class="header-container container">
-        <nav class="header-navigation">
-          <a class="logo-header" href="/">
-            <svg class="logo-icon" width="120" height="41" aria-label="">
-              <use href="./images/icons.svg#icon-logo"></use>
-            </svg>
-          </a>
-          <ul class="header-menu">
-            <li class="header-item">
-              <a class="menu-link" href="/">Home</a>
-            </li>
-            <li class="header-item">
-              <a class="menu-link" href="/">About us</a>
-            </li>
-            <li class="header-item">
-              <a class="menu-link" href="/">Service</a>
-            </li>
-            <li class="header-item">
-              <a class="menu-link" href="/"
-                >Page
-                <svg class="-icon" width="" height="" aria-label="">
-                  <use href=""></use>
-                </svg>
-              </a>
-            </li>
-            <li class="header-item">
-              <a class="menu-link" href="/"
-                >Blog
-                <svg class="logo-icon" width="" height="" aria-label="">
-                  <use href=""></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
-        </nav>
-        <div class="header-vr-button">
-          <button class="header-button" type="button">Contact us</button>
+    <div class="wrapper">
+      <header class="header-vr">
+        <div class="header-container container">
+          <nav class="header-navigation">
+            <a class="logo-header" href="/">
+              <svg
+                class="logo-icon"
+                width="101"
+                height="30"
+                aria-label="logo vrnas"
+              >
+                <use href="./images/sprite.svg#icon-logo"></use>
+              </svg>
+            </a>
+            <ul class="header-menu list">
+              <li class="header-item">
+                <a class="menu-link link" href="/">Home</a>
+              </li>
+              <li class="header-item">
+                <a class="menu-link link" href="/">About us</a>
+              </li>
+              <li class="header-item">
+                <a class="menu-link link" href="/">Service</a>
+              </li>
+              <li class="header-item">
+                <a class="menu-link link" href="/"
+                  >Page
+                  <svg
+                    class="header-icon"
+                    width="6"
+                    height="4"
+                    aria-label="menu pointer"
+                  >
+                    <use href="./images/sprite.svg#icon-pointer"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="header-item">
+                <a class="menu-link link" href="/"
+                  >Blog
+                  <svg
+                    class="header-icon"
+                    width="6"
+                    height="4"
+                    aria-label="menu pointer"
+                  >
+                    <use href="./images/sprite.svg#icon-pointer"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header-vr-button">
+            <button class="header-button" type="button">Contact us</button>
+          </div>
+          <div class="header-mobil-button">
+            <button class="mobile-menu-open-btn" type="button">
+              <svg
+                class="mobile-menu-open-btn-icon"
+                width="16"
+                height="16"
+                aria-label="mobile menu open icon"
+              >
+                <use href="./images/sprite.svg#icon-burger"></use>
+              </svg>
+            </button>
+          </div>
         </div>
-        <div class="header-mobil-button">
-          <button class="mobile-menu-open-btn" type="button">
-            <svg
-              class="mobile-menu-open-btn-icon"
-              width=""
-              height=""
-              aria-label="mobile menu open icon"
-            >
-              <use href=""></use>
-            </svg>
-          </button>
-        </div>
-      </div>
-    </header>
+      </header>
+    </div>
   </body>
 </html>
