@@ -119,6 +119,112 @@ body {
 
 /* ============== /MOBILE HEADER ============== */
 
+/* ============== MOBILE HERO ============== */
+
+.hero {
+    padding-top: 30px;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    bottom: -100%;
+    left: -80%;
+    width: 68.75rem;
+    height: 45.0625rem;
+    background: url(./icon/stripes.svg) center no-repeat;
+}
+
+.hero-container {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.hero-title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1.20833;
+    letter-spacing: -0.01em;
+    color: #fff;
+    padding-bottom: 10px;
+}
+
+.hero-description {
+    font-weight: 300;
+    font-size: 16px; 
+    line-height: 1.75;
+    color: #d1d1d1;
+    padding-bottom: 20px;
+}
+
+.hero-button-action {
+    font-weight: 700;
+    font-size: 14px; 
+    line-height: 1;
+    letter-spacing: 0.11em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    padding: 18px 38px;
+    background: linear-gradient(90deg, #0cbaf1 0%, #e95ce9 100%);
+    display: flex;
+    border: none;
+}
+
+.hero-contant {
+    margin-bottom: 32px;
+}
+
+.hero-clients-list {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding-bottom: 85px;
+}
+
+.underline {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.75;
+    color: #fff;
+    padding-right: 8px;
+}
+
+.clients-text {
+    font-weight: 300;
+    color: #d1d1d1;
+}
+
+.clients-list {
+    display: flex;
+    margin-left: 12px;
+}
+
+.clients-item {
+    margin-left: -12px;
+}
+
+.hero-clients-video {
+    display: flex;
+    align-items: center;
+}
+
+.clients-video-play-button {
+    border-radius: 100%;
+    border: 1.17px solid #fff;
+    background-color: transparent;
+    content: "";
+    position: absolute;
+    left: 18%;
+}
+
+.clients-video-open-btn-icon {
+    fill: #fff;
+}
+    
+
+/* ============== /MOBILE HERO ============== */
+
 @media screen and (min-width: 768px) {
     
 /* ============== TABLET HEADER ============== */
