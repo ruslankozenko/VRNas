@@ -104,18 +104,6 @@ body {
     background: url(./icon/waves.svg) top right no-repeat;
 }
 
-.header-vr::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(37, 37, 50, .7);
-    backdrop-filter: blur(10px);
-    transition: all .5s ease 0s;
-    opacity: 0;
-}
 
 /* ============== /MOBILE HEADER ============== */
 
@@ -125,15 +113,7 @@ body {
     padding-top: 30px;
 }
 
-.hero::before {
-    content: "";
-    position: absolute;
-    bottom: -100%;
-    left: -80%;
-    width: 68.75rem;
-    height: 45.0625rem;
-    background: url(./icon/stripes.svg) center no-repeat;
-}
+
 
 .hero-container {
     padding-left: 16px;
@@ -179,7 +159,7 @@ body {
     display: flex;
     align-items: center;
     gap: 12px;
-    padding-bottom: 85px;
+    padding-bottom: 120px;
 }
 
 .underline {
@@ -215,11 +195,23 @@ body {
     background-color: transparent;
     content: "";
     position: absolute;
-    left: 18%;
+    left: 27%;
+    z-index: 999;
 }
 
 .clients-video-open-btn-icon {
     fill: #fff;
+}
+
+.hero::after {
+    content: "";
+    position: absolute;
+    z-index: 9999;
+    width: 100%;
+    height: 100%;
+    top: 110%;
+    left: 25%;
+    background: url(./images/hero/photo-hero-mob.png) center no-repeat;
 }
     
 
