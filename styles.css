@@ -111,11 +111,11 @@ body {
 
 .hero {
     padding-top: 30px;
-    padding-bottom: 80px;
-    background-image: linear-gradient(rgba(17, 17, 17, 0.00) 0%,
+    padding-bottom: 300px;
+    background: linear-gradient(rgba(17, 17, 17, 0.00) 0%,
                 rgba(17, 17, 17, 0.40) 100%),
             url(./icon/stripes.svg);
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
         background-position: left;
 }
@@ -124,7 +124,7 @@ body {
  (min-resolution: 192dpi),
  (min-resolution: 2dppx) {
      .hero {
-         background-image: linear-gradient(rgba(17, 17, 17, 0.00) 0%,
+         background: linear-gradient(rgba(17, 17, 17, 0.00) 0%,
                  rgba(17, 17, 17, 0.40) 100%),
              url(./icon/stripes.svg);
      }
@@ -232,19 +232,30 @@ body {
     z-index: 2;
 }
 
-.hero-photo-basic::before {
+.hero-column {
+    content: "";
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.hero::before {
+    display: block;
     content: "";
     position: absolute;
-    top: 110%;
+    top: 90%;
     left: 50%;
     width: 100%;
     height: 100%;
-    background:
-            url(./images/hero/photo-hero-mob.png) left no-repeat;
-       
+    background: url(./images/hero/photo-hero-mob.png) left no-repeat;
+}
+
+@media screen and (max-width: 425px) {
+    .hero::before {
+        top: 120%;
+    }
 }
     
-
 /* ============== /MOBILE HERO ============== */
 
 @media screen and (min-width: 768px) {
@@ -305,6 +316,12 @@ body {
 }
 
 /* ============== /TABLET HEADER ============== */
+
+/* ============== TABLET HERO ============== */
+
+
+
+/* ============== /TABLET HERO ============== */
 }
 
 @media screen and (min-width: 1440px) {
