@@ -168,25 +168,21 @@
                   <span class="underline">32k+</span>Happy Client
                 </div>
               </div>
-              <div class="hero-clients-video">
-                <video
-                  class="clients-video video"
-                  src
-                  width="196"
-                  height="128"
-                  poster="./images/hero/video-client.jpg"
-                ></video>
+              <div class="hero-clients-video play">
+                <picture class="hero-photo-video">
+                  <source
+                    srcset="
+                      ./images/hero/video.jpg    1x,
+                      ./images/hero/video@2x.jpg 2x
+                    "
+                  />
 
-                <button class="clients-video-play-button" type="button">
-                  <svg
-                    class="clients-video-open-btn-icon"
-                    width="9.5"
-                    height="10.5"
-                    aria-label="play icon"
-                  >
-                    <use href="./images/sprite.svg#icon-Play"></use>
-                  </svg>
-                </button>
+                  <img
+                    src="./images/hero/video.jpg"
+                    alt="photo video"
+                    class="video-photo"
+                  />
+                </picture>
               </div>
             </div>
             <!--
@@ -212,8 +208,8 @@
                   class="basic-photo"
                 />
               </picture>
-            </div>
-          --></div>
+            </div>-->
+          </div>
         </section>
       </main>
 

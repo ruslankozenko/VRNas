@@ -111,7 +111,24 @@ body {
 
 .hero {
     padding-top: 30px;
+    padding-bottom: 80px;
+    background-image: linear-gradient(rgba(17, 17, 17, 0.00) 0%,
+                rgba(17, 17, 17, 0.40) 100%),
+            url(./icon/stripes.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: left;
 }
+
+ @media (min-device-pixel-ratio: 2),
+ (min-resolution: 192dpi),
+ (min-resolution: 2dppx) {
+     .hero {
+         background-image: linear-gradient(rgba(17, 17, 17, 0.00) 0%,
+                 rgba(17, 17, 17, 0.40) 100%),
+             url(./icon/stripes.svg);
+     }
+ }
 
 
 
@@ -159,7 +176,7 @@ body {
     display: flex;
     align-items: center;
     gap: 12px;
-    padding-bottom: 120px;
+    margin-bottom: 120px;
 }
 
 .underline {
@@ -168,6 +185,19 @@ body {
     line-height: 1.75;
     color: #fff;
     padding-right: 8px;
+    position: relative;
+}
+
+.underline::before {
+    display: block;
+    content: "";
+    position: absolute;
+    width: 48px;
+    height: 7px;
+    left: 50%;
+    bottom: -5%;
+    background: url(./icon/smear.svg) center no-repeat;
+    transform: translateX(-50%);
 }
 
 .clients-text {
@@ -187,31 +217,31 @@ body {
 .hero-clients-video {
     display: flex;
     align-items: center;
+    justify-content: space-around;
+    max-width: 196px;
 }
 
-.clients-video-play-button {
-    border-radius: 100%;
-    border: 1.17px solid #fff;
-    background-color: transparent;
+.play::before {
     content: "";
     position: absolute;
-    left: 27%;
-    z-index: 999;
+   top: auto;
+   left: auto;
+    width: 1.75rem;
+    height: 1.75rem;
+    background: url(./icon/play.svg) center no-repeat;
+    z-index: 2;
 }
 
-.clients-video-open-btn-icon {
-    fill: #fff;
-}
-
-.hero::after {
+.hero-photo-basic::before {
     content: "";
     position: absolute;
-    z-index: 9999;
+    top: 110%;
+    left: 50%;
     width: 100%;
     height: 100%;
-    top: 110%;
-    left: 25%;
-    background: url(./images/hero/photo-hero-mob.png) center no-repeat;
+    background:
+            url(./images/hero/photo-hero-mob.png) left no-repeat;
+       
 }
     
 
