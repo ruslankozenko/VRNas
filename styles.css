@@ -127,6 +127,9 @@ body {
          background: linear-gradient(rgba(17, 17, 17, 0.00) 0%,
                  rgba(17, 17, 17, 0.40) 100%),
              url(./icon/stripes.svg);
+            background-size: cover;
+                background-repeat: no-repeat;
+                background-position: left;
      }
  }
 
@@ -319,7 +322,31 @@ body {
 
 /* ============== TABLET HERO ============== */
 
+.hero-container {
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
+.hero-contant {
+    max-width: 540px;
+}
+
+.hero-title {
+    font-size: 64px;
+}
+
+.hero-description {
+    max-width: 446px;
+}
+
+.hero::before {
+    background: url(./images/hero/photo-hero-desk.png) no-repeat;
+    top: 70%;
+}
+
+.hero-clients-list {
+    margin-bottom: 60px;
+}
 
 /* ============== /TABLET HERO ============== */
 }
