@@ -261,6 +261,27 @@ body {
     
 /* ============== /MOBILE HERO ============== */
 
+/* ============== MOBILE ADVANTAGES ============== */
+
+.advantages-section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: #252532;
+    margin-top: -136px;
+    position: relative;
+    margin-left: 16px;
+    margin-right: 16px;   
+}
+
+.advantages-container {
+   padding-left: 16px;
+   padding-right: 16px;
+}
+
+
+
+/* ============== /MOBILE ADVANTAGES ============== */
+
 @media screen and (min-width: 768px) {
     
 /* ============== TABLET HEADER ============== */
