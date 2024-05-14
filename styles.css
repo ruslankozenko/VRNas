@@ -247,7 +247,7 @@ body {
     content: "";
     position: absolute;
     top: 25%;
-    left: 50%;
+    left: 34%;
     width: 100%;
     height: 100%;
     background: url(./images/hero/photo-hero-mob.png) left no-repeat;
@@ -255,7 +255,7 @@ body {
 
 @media screen and (max-width: 425px) {
     .hero::before {
-        top: 35%;
+        top: 29%;
     }
 }
     
@@ -301,8 +301,6 @@ body {
 .icon {
     padding-bottom: 42px;
 }
-
-
 
 /* ============== /MOBILE ADVANTAGES ============== */
 
@@ -416,6 +414,26 @@ body {
 }
 
 /* ============== /TABLET HERO ============== */
+
+/* ============== TABLET ADVANTAGES ============== */
+
+.advantages-section {
+    margin-top: -178px;
+    padding: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.advantages-container {
+    max-width: 768px;
+    padding: 20px 42px;
+}
+
+.advantages-list {
+    flex-direction: row;
+}
+
+/* ============== /TABLET ADVANTAGES ============== */
 }
 
 @media screen and (min-width: 1440px) {
