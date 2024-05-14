@@ -456,10 +456,6 @@ body {
     padding-right: 120px;
 }
 
-.hero::before {
-    background: url(./images/hero/photo-hero-desk@2x.png) no-repeat;
-    top: 10%;
-}
 
 .hero-clients {
     display: flex;
