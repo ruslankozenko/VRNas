@@ -264,8 +264,8 @@ body {
 /* ============== MOBILE ADVANTAGES ============== */
 
 .advantages-section {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 36px;
+    padding-bottom: 36px;
     background: #252532;
     margin-top: -136px;
     position: relative;
@@ -274,8 +274,32 @@ body {
 }
 
 .advantages-container {
-   padding-left: 16px;
-   padding-right: 16px;
+   padding-left: 36px;
+   padding-right: 36px;
+}
+
+.advantages-list-title {
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+    padding-bottom: 12px;
+}
+
+.advantages-list-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 2;
+    color: #b0b0b2;
+}
+
+.advantages-list {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.icon {
+    padding-bottom: 42px;
 }
 
 
