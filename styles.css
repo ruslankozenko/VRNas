@@ -138,6 +138,7 @@ body {
 .hero-container {
     padding-left: 16px;
     padding-right: 16px;
+    max-height: 100%;
 }
 
 .hero-title {
@@ -183,6 +184,7 @@ body {
 }
 
 .hero-clients-list {
+    max-width: 278px;
     display: flex;
     align-items: center;
     gap: 12px;
@@ -224,6 +226,10 @@ body {
     margin-left: -12px;
 }
 
+.hero-column {
+    max-width: 196px;
+}
+
 .hero-clients-video {
     display: flex;
     align-items: center;
@@ -253,7 +259,7 @@ body {
 .hero-photo-image {
     content: "";
     position: absolute;
-    width: 100%;
+    width: auto;
     height: 100%;
     left: 40%;
     top: 95%;
@@ -267,7 +273,7 @@ body {
     padding-top: 36px;
     padding-bottom: 36px;
     background: #252532;
-    margin-top: -136px;
+    margin-top: -200px;
     position: relative;
     margin-left: 16px;
     margin-right: 16px;   
@@ -411,6 +417,7 @@ body {
 .hero-photo-image {
     top: 50%;
     left: 50%;
+    margin-right: 20px;
 }
 
 /* ============== /TABLET HERO ============== */
@@ -418,7 +425,7 @@ body {
 /* ============== TABLET ADVANTAGES ============== */
 
 .advantages-section {
-    margin-top: -178px;
+    margin-top: -240px;
     padding: 0;
     margin-left: 20px;
     margin-right: 20px;
@@ -431,6 +438,10 @@ body {
 
 .advantages-list {
     flex-direction: row;
+}
+
+.advantages-item {
+    max-width: 324px;
 }
 
 /* ============== /TABLET ADVANTAGES ============== */
@@ -465,6 +476,7 @@ body {
 
 
 .hero-clients {
+    max-width: 540px;
     display: flex;
     gap: 75px;
 }
@@ -487,8 +499,26 @@ body {
 
 .hero-photo-image {
     top: 30%;
-    left: 60%;
+    left: 58%;
 }
 
 /* ============== /DESKTOP HERO ============== */
+
+/* ============== DESKTOP ADVANTAGES ============== */
+
+.advantages-section {
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.advantages-container {
+    max-width: 1440px;
+    padding: 42px 64px;
+}
+
+.advantages-list {
+    justify-content: space-between;
+}
+
+/* ============== /DESKTOP ADVANTAGES ============== */
 }
