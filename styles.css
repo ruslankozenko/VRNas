@@ -55,7 +55,7 @@ body {
 }
 
 .container {
-    max-width: 320px;
+    max-width: 360px;
     margin: auto;
     padding-left: 16px;
     padding-right: 16px;
@@ -136,6 +136,7 @@ body {
 }
 
 .hero-container {
+    position: relative;
     padding-left: 16px;
     padding-right: 16px;
     max-height: 100%;
@@ -255,14 +256,13 @@ body {
     justify-content: flex-start;
 }
 
-
 .hero-photo-image {
     content: "";
     position: absolute;
     width: auto;
     height: 100%;
     left: 40%;
-    top: 95%;
+    top: 63%;
     margin: auto;
 }
 /* ============== /MOBILE HERO ============== */
@@ -274,6 +274,7 @@ body {
     padding-bottom: 36px;
     background: #252532;
     margin-top: -200px;
+    margin-bottom: 50px;
     position: relative;
     margin-left: 16px;
     margin-right: 16px;   
@@ -310,7 +311,94 @@ body {
 
 /* ============== /MOBILE ADVANTAGES ============== */
 
+/* ============== MOBILE ABOUT US ============== */
+
+.about-section {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.about-photo {
+    margin-bottom: 48px;
+}
+
+.about-photo-image {
+    background-color: #252532;
+}
+
+.about-title {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #0cbaf1 0%, #e95ce9 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-bottom: 12px;
+    display: inline-block;
+}
+
+.about-subtitle {
+    font-weight: 600;
+    font-size: 32px;
+    letter-spacing: -0.01em;
+    color: #fff;
+    padding-bottom: 12px;
+}
+
+.about-description {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.75;
+    color: #d1d1d1;
+    padding-bottom: 24px;
+}
+
+.about-list {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    padding-bottom: 32px;
+}
+
+.about-item {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.75;
+    color: #fff;
+    padding-left: 28px;
+    background: url(./icon/check-box.svg) left center/16px 16px no-repeat;
+}
+
+.about-button-action {
+    font-weight: 700;
+        font-size: 14px;
+        line-height: 1;
+        letter-spacing: 0.11em;
+        text-transform: uppercase;
+        text-align: center;
+        color: #fff;
+        padding: 18px 38px;
+        background: linear-gradient(90deg, #0cbaf1 0%, #e95ce9 100%);
+        display: flex;
+        border: none;
+}
+
+.about-button-action:hover,
+.about-button-action:focus {
+    font-size: medium;
+    background: #ca6aeb;
+    transition: all .3s ease 0s;
+}
+
+/* ============== /MOBILE ABOUT US ============== */
+
 @media screen and (min-width: 768px) {
+
+.container {
+    max-width: 768px;
+}    
     
 /* ============== TABLET HEADER ============== */
 
@@ -445,6 +533,31 @@ body {
 }
 
 /* ============== /TABLET ADVANTAGES ============== */
+
+/* ============== TABLET ABOUT US ============== */
+
+.about-section {
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.about-container {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+      max-height: 644px;
+}
+
+.about-subtitle {
+    font-size: 36px;
+}
+
+.about-content {
+    max-width: 362px;
+}
+
+
+/* ============== /TABLET ABOUT US ============== */
 }
 
 @media screen and (min-width: 1440px) {
@@ -499,7 +612,7 @@ body {
 
 .hero-photo-image {
     top: 30%;
-    left: 58%;
+    left: 55%;
 }
 
 /* ============== /DESKTOP HERO ============== */
