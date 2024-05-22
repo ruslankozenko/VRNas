@@ -506,8 +506,6 @@ body {
     transition: all .3s ease 0s;
 }
 
-
-
 /* ============== /MOBILE OUR SERVICE ============== */
 
 @media screen and (min-width: 768px) {
@@ -677,6 +675,34 @@ body {
 }
 
 /* ============== /TABLET ABOUT US ============== */
+
+/* ============== TABLET OUR SERVICE ============== */
+
+.service-container {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.service-top {
+    display: flex;
+    gap: 50px;
+}
+
+.service-top-subtitle {
+    font-size: 38px;
+    width: 256px;
+}
+
+.service-card {
+    max-width: 354px;
+}
+
+.service-content {
+    display: grid;
+            grid-template-columns: repeat(2, 1fr);
+}
+
+/* ============== /TABLET OUR SERVICE ============== */
 }
 
 @media screen and (min-width: 1440px) {
