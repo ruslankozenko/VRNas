@@ -690,7 +690,7 @@ body {
 
 .service-top-subtitle {
     font-size: 38px;
-    width: 256px;
+    width: 259px;
 }
 
 .service-card {
@@ -699,7 +699,7 @@ body {
 
 .service-content {
     display: grid;
-            grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
 }
 
 /* ============== /TABLET OUR SERVICE ============== */
@@ -813,5 +813,42 @@ body {
 }
 
 /* ============== /DESKTOP ABOUT US==============*/
+
+/* ============== DESKTOP OUR SERVICE ============== */
+
+.service-section {
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.service-top-subtitle {
+    font-size: 48px;
+}
+
+.service-top {
+    gap: 275px;
+}
+
+.service-content {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.service-card-design {
+    margin-top: 60px;
+}
+
+.service-card-consulting {
+    margin-top: 130px;
+}
+
+.service-card-games {
+    margin-top: -130px;
+}
+
+.service-card-events {
+    margin-top: -75px;
+}
+
+/* ============== /DESKTOP OUR SERVICE ============== */
  
 }
