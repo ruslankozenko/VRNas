@@ -315,7 +315,6 @@ body {
 
 .about-section {
     margin-top: 100px;
-    margin-bottom: 50px;
 }
 
 .about-photo {
@@ -398,7 +397,6 @@ body {
 
 .service-section {
     margin-top: 100px;
-    margin-bottom: 50px;
 }
 
 .service-top-title {
@@ -508,10 +506,74 @@ body {
 
 /* ============== /MOBILE OUR SERVICE ============== */
 
+/* ============== MOBILE WHY CHOOSE US ============== */
+
+.choose-section{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.choose-photo {
+    background: #252532;
+    margin-bottom: 48px;
+}
+
+.choose-title {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #0cbaf1 0%, #e95ce9 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-flex;
+    padding-bottom: 12px;
+}
+
+.choose-subtitle {
+    font-weight: 600;
+    font-size: 32px;
+    letter-spacing: -0.01em;
+    color: #fff;
+    padding-bottom: 32px;
+}
+
+.choose-list {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.choose-item-text {
+    font-weight: 500;
+    color: #fff;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.35);
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-up {
+    background-color: transparent;
+    border: none;
+}
+
+.passionate-item-text {
+    font-weight: 400;
+    font-size: 16px; 
+    line-height: 1.75;
+    color: #d1d1d1;
+}
+
+/* ============== /MOBILE WHY CHOOSE US ============== */
+
 @media screen and (min-width: 768px) {
 
 .container {
     max-width: 768px;
+    padding-left: 20px;
+    padding-right: 20px;
 }    
     
 /* ============== TABLET HEADER ============== */
@@ -703,6 +765,18 @@ body {
 }
 
 /* ============== /TABLET OUR SERVICE ============== */
+
+/* ============== TABLET WHY CHOOSE US ============== */
+
+.choose-subtitle {
+    font-size: 40px;
+}
+
+.choose-item-text {
+    font-size: 20px;
+}
+
+/* ============== /TABLET WHY CHOOSE US ============== */
 }
 
 @media screen and (min-width: 1440px) {
@@ -850,5 +924,29 @@ body {
 }
 
 /* ============== /DESKTOP OUR SERVICE ============== */
+
+/* ============== DESKTOP WHY CHOOSE US ============== */
+
+.choose-section {
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.choose-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.choose-contant {
+    width: 548px;
+}
+
+.choose-subtitle {
+    font-size: 48px;
+}
+
+/* ============== /DESKTOP WHY CHOOSE US ============== */
  
 }
