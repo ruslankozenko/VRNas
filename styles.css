@@ -568,6 +568,111 @@ body {
 
 /* ============== /MOBILE WHY CHOOSE US ============== */
 
+/* ============== MOBILE HOW TO GET STARTED ============== */
+
+.started-section {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.started-title {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #0cbaf1 0%, #e95ce9 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-flex;
+    padding-bottom: 12px;
+    padding-left: 60px;
+}
+
+.started-subtitle {
+    font-weight: 600;
+    font-size: 32px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: #fff;
+}
+
+.started-top {
+    margin-bottom: 32px;
+}
+
+.started-tag {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.42857;
+    text-align: center;
+    color: #fff;
+    border-radius: 16px;
+    padding: 2px 10px;
+    width: 90px;
+    height: 24px;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.started-info-title {
+    font-weight: 500;
+    font-size: 20px;
+    color: #fff;
+    padding-top: 12px;
+}
+
+.started-info {
+    background-image: linear-gradient(rgba(17, 17, 17, 0.00) 0%,
+                rgba(17, 17, 17, 0.40) 100%),
+            url(./images/started/image-start-mob.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 254px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 20px;
+    margin-bottom: 32px;
+}
+
+ @media (min-device-pixel-ratio: 2),
+ (min-resolution: 192dpi),
+ (min-resolution: 2dppx) {
+     .started-info {
+         background-image: linear-gradient(rgba(17, 17, 17, 0.00) 0%,
+                 rgba(17, 17, 17, 0.40) 100%),
+             url(./images/started/image-start-mob@2x.jpg);
+     }
+ }
+
+ .started-button-action {
+    padding: 18px 38px;
+    height: 50px;
+    background: linear-gradient(90deg, #0cbaf1 0%, #e95ce9 100%);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1;
+    letter-spacing: 0.11em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    border: none;
+ }
+
+ .started-button {
+    display: flex;
+    justify-content: center;
+ }
+
+ .started-button-action:hover,
+ .started-button-action:focus {
+    font-size: medium;
+    background: #ca6aeb;
+    transition: all .3s ease 0s;
+  }
+
+/* ============== /MOBILE HOW TO GET STARTED ============== */
+
 @media screen and (min-width: 768px) {
 
 .container {
