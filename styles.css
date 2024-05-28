@@ -677,6 +677,52 @@ body {
 
 /* ============== /MOBILE HOW TO GET STARTED ============== */
 
+/* ============== MOBILE TESTIMONIAL ============== */
+
+.testimonial-section {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.testimonial-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.testimonial-title {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #0cbaf1 0%, #e95ce9 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-bottom: 12px;
+}
+
+.testimonial-subtitle {
+    font-weight: 600;
+    font-size: 32px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: #fff;
+}
+
+.testimonial-body {
+    min-height: 1007px;
+    background: url(./icon/testimonial/line.svg) center no-repeat;
+}
+
+.testimonial-photo {
+    display: flex;
+    padding-top: 220px;
+}
+
+/* ============== /MOBILE TESTIMONIAL ============== */
+
 @media screen and (min-width: 768px) {
 
 .container {
