@@ -586,7 +586,8 @@ body {
     -webkit-text-fill-color: transparent;
     display: inline-flex;
     padding-bottom: 12px;
-    padding-left: 60px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 .started-subtitle {
@@ -598,6 +599,9 @@ body {
 }
 
 .started-top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     margin-bottom: 32px;
 }
 
@@ -882,6 +886,19 @@ body {
 }
 
 /* ============== /TABLET WHY CHOOSE US ============== */
+
+/* ============== TABLET HOW TO GET STARTED ============== */
+
+.started-subtitle {
+    font-size: 40px;
+}
+
+.started-info {
+    height: 488px;
+    padding: 40px 30px;
+}
+
+/* ============== /TABLET HOW TO GET STARTED ============== */
 }
 
 @media screen and (min-width: 1440px) {
@@ -1053,5 +1070,48 @@ body {
 }
 
 /* ============== /DESKTOP WHY CHOOSE US ============== */
+
+/* ============== DESKTOP HOW TO GET STARTED ============== */
+
+.started-section {
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.started-info {
+    background-image: linear-gradient(rgba(17, 17, 17, 0.00) 0%,
+            rgba(17, 17, 17, 0.40) 100%),
+        url(./images/started/image-start-desk.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 522px;
+}
+
+    @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            .started-info {
+                background-image: linear-gradient(rgba(17, 17, 17, 0.00) 0%,
+                        rgba(17, 17, 17, 0.40) 100%),
+                    url(./images/started/image-start-desk@2x.jpg);
+            }
+        }
+
+.started-top {
+    margin-bottom: 48px;
+}
+
+.started-subtitle {
+    font-size: 48px;
+}
+
+
+.started-info-title {
+    font-size: 36px;
+    line-height: 1.22222;
+    letter-spacing: -0.02em;
+}
+/* ============== /DESKTOP HOW TO GET STARTED ============== */
  
 }
