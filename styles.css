@@ -688,6 +688,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 .testimonial-title {
@@ -712,14 +713,16 @@ body {
 
 .testimonial-body {
     position: relative;
-    min-height: 1007px;
+    min-height: 1247px;
     background: url(./icon/testimonial/line.svg) center no-repeat;
 }
 
 .testimonial-photo {
     content: "";
     position: absolute;
-    top: 22%;
+    width: 100%;
+    height: 100%;
+    top: 27%;
     left: 0;
 }
 
