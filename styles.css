@@ -722,7 +722,7 @@ body {
     position: absolute;
     width: 100%;
     height: 100%;
-    top: 27%;
+    top: 27.5%;
     left: 0;
 }
 
@@ -748,44 +748,37 @@ body {
     background: linear-gradient(90deg, #0cbaf1 0%, #e95ce9 100%);
 }
 
-.client6 {
+.testimonial-clients-item {
     content: "";
     position: absolute;
-    top: 88%;
+}
+
+.client6 {
+    top: 94%;
     left: 18%;
 }
 
 .client5 {
-    content: "";
-    position: absolute;
-    top: 80%;
-    left: 60%;
+    top: 85%;
+    left: 65%;
 }
 
 .client4 {
-    content: "";
-    position: absolute;
-    top: 70%;
+    top: 74%;
     left: 12%;
 }
 
 .client3 {
-    content: "";
-    position: absolute;
     top: 66%;
     left: 64%;
 }
 
 .client2 {
-    content: "";
-    position: absolute;
     top: 20%;
     left: 60%;
 }
 
 .client1 {
-    content: "";
-    position: absolute;
     top: 10%;
     left: 10%;
 }
@@ -1014,6 +1007,44 @@ body {
 }
 
 /* ============== /TABLET HOW TO GET STARTED ============== */
+
+/* ============== TABLET TESTIMONIAL ============== */
+
+.testimonial-photo {
+    top: 29.7%;
+    left: 4%;
+}
+
+.testimonial-subtitle {
+    font-size: 40px;
+    line-height: 1.20833;
+}
+
+.client6 {
+    top: 85%;
+    left: 10%;
+}
+
+.client5 {
+    top: 90%;
+    left: 74%;
+}
+
+.client4 {
+    top: 65%;
+    left: 22%;
+}
+
+.client3 {
+    top: 70%;
+}
+
+.client2 {
+    left: 70%;
+}
+
+/* ============== /TABLET TESTIMONIAL ============== */
+
 }
 
 @media screen and (min-width: 1440px) {
@@ -1228,5 +1259,53 @@ body {
     letter-spacing: -0.02em;
 }
 /* ============== /DESKTOP HOW TO GET STARTED ============== */
+
+/* ============== DESKTOP TESTIMONIAL ============== */
+
+.testimonial-section {
+    margin-top: 250px;
+}
+
+.testimonial-top {
+    margin-bottom: -200px;
+}
+
+.testimonial-subtitle {
+    font-size: 48px;
+}
+
+.testimonial-photo {
+    top: 21.6%;
+    left: 16%;
+}
+
+.client1 {
+    top: 25%;
+    left: 15%;
+}
+
+.client2 {
+    left: 60%;
+}
+
+.client3 {
+    left: 50%;
+}
+
+.client4 {
+    top: 45%;
+    left: 78%;
+}
+
+.client5 {
+    top: 80%;
+}
+
+.client6 {
+    top: 75%;
+    left: 20%;
+}
+
+/* ============== /DESKTOP TESTIMONIAL ============== */
  
 }
