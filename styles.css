@@ -1496,5 +1496,66 @@ body {
 }
 
 /* ============== /DESKTOP TESTIMONIAL ============== */
+
+/* ============== DESKTOP PRICING ============== */
+
+.pricing-section {
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.pricing-top {
+    margin-bottom: 40px;
+}
+
+.pricing-subtitle {
+    font-size: 48px;
+    line-height: 1.20833;
+}
+
+.pricing-description {
+    max-width: 625px;
+}
+
+.pricing-contant {
+    flex-direction: row;
+    padding-top: 55px;
+    padding-left: 42px;
+    padding-right: 0;
+    position: relative;
+}
+
+.pricing-list {
+    padding-bottom: 0;
+    border-bottom: none;
+    gap: 32px;
+    max-width: 640px;
+    margin-bottom: 42px;
+    position: relative;
+}
+
+.pricing-list::after {
+    content: "";
+    width: 1px;
+    height: 447px;
+    display: block;
+    color: #FFF;
+    background-color: #FFF;
+    position: absolute;
+    right: -78px;
+}
+
+.pricing-image {
+    width: 360px;
+    height: 520px;
+    margin-left: auto;
+    margin-top: auto;
+}
+
+.pricing-body {
+    margin-left: 680px;
+}
+
+/* ============== /DESKTOP PRICING ============== */
  
 }
