@@ -864,7 +864,6 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    align-items: center;
     gap: 8px;
 }
 
@@ -887,7 +886,7 @@ body {
     border-right: 2px solid rgb(233, 92, 233);
     width: 250px;
     height: 200px;
-    background-color: #18181b;
+    background: #252532;
 }
 
 .pricing-price-title {
@@ -1207,6 +1206,33 @@ body {
 }
 
 /* ============== /TABLET TESTIMONIAL ============== */
+
+/* ============== TABLET PRICING ============== */
+
+.pricing-top {
+    margin-bottom: 30px;
+}
+
+.pricing-subtitle {
+    font-size: 40px;
+}
+
+.pricing-image {
+    margin-left: 450px;
+}
+
+.pricing-price {
+    width: 321px;
+    height: 222px;
+    padding: 20px;
+}
+
+.pricing-body {
+    margin-top: -150px;
+    margin-left: 40px;
+}
+
+/* ============== /TABLET PRICING ============== */
 
 }
 
