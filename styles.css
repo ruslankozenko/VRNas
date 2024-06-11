@@ -988,6 +988,7 @@ body {
     position: relative;
     width: 430px;
     height: 302px;
+    margin: auto;
 }
 
 .partners-image {
@@ -1040,6 +1041,7 @@ body {
     top: 60%;
     left: 88%;
 }
+
 
 /* ============== /MOBILE PARTNERS ============== */
 
@@ -1329,6 +1331,16 @@ body {
 }
 
 /* ============== /TABLET PRICING ============== */
+
+/* ============== TABLET PARTNERS ============== */
+
+.partners-contant {
+    background: url(./icon/line-partners.svg) top / cover no-repeat;
+    width: 1055px;
+    height: 541px;
+}
+
+/* ============== /TABLET PARTNERS ============== */
 
 }
 
