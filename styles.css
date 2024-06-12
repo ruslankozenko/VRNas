@@ -986,7 +986,7 @@ body {
 .partners-contant {
     background: url(./icon/parners-line.svg) top no-repeat;
     position: relative;
-    width: 430px;
+    max-width: 430px;
     height: 302px;
     margin: auto;
 }
@@ -1005,6 +1005,7 @@ body {
     position: absolute;
     width: 100%;
     height: 100%;
+    object-fit: cover;
 }
 
 .partner1 {
@@ -1334,10 +1335,55 @@ body {
 
 /* ============== TABLET PARTNERS ============== */
 
+.partners-top {
+    margin-bottom: 32px;
+}
+
+.partners-subtitle {
+    font-size: 40px;
+    max-width: none;
+}
+
 .partners-contant {
-    background: url(./icon/line-partners.svg) top / cover no-repeat;
-    width: 1055px;
+    background: url(./icon/line-partners.svg) top no-repeat;
+    max-width: 1055px;
     height: 541px;
+}
+
+.partners-image {
+    top: 40%;
+    left: 3.5%;
+}
+
+.partner1 {
+    top: 4%;
+}
+
+.partner2 {
+    top: 15%;
+    left: 24%;
+}
+
+.partner3 {
+    top: 15%;
+    left: 67%;
+}
+
+.partner4 {
+    top: 44%;
+    left: 8.6%;
+}
+
+.partner5 {
+    top: 44%;
+}
+
+.partner6 {
+    top: 82%;
+}
+
+.partner7 {
+    top: 82%;
 }
 
 /* ============== /TABLET PARTNERS ============== */
