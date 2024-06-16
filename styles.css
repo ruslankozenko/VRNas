@@ -1004,8 +1004,27 @@ body {
     content: "";
     position: absolute;
     object-fit: cover;
+    
+
+    animation-name: icon-circle;
+        animation-duration: 2s;
+        animation-timing-function: linear;
+        animation-iteration-count: 2;
+        animation-direction: alternate;
+        animation-delay: 0s;
 }
 
+@keyframes icon-circle {
+    0% {
+        top: 0;
+    }
+
+    
+
+    100% {
+        top: 30px;
+    }
+}
 
 .partner1 {
     top: 3%;
