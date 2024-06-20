@@ -970,8 +970,8 @@ body {
 /* ============== MOBILE PARTNERS ============== */
 
 .partners-section {
-    padding-top: 100px;
-    padding-bottom: 50px;
+    margin-top: 150px;
+    margin-bottom: 50px;
 }
 
 .partners-title {
@@ -1085,8 +1085,8 @@ body {
 /* ============== MOBILE SUBSCRIBE ============== */
 
 .subscribe-section {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .subscribe-content {
@@ -1144,8 +1144,6 @@ input[type="email"]::placeholder {
     border: 0;
     background: url(./icon/subscribe/airplane.svg) center rgba(255, 255, 255, 0.21) no-repeat;
 }
-
-
 
 /* ============== /MOBILE SUBSCRIBE ============== */
 
@@ -1439,7 +1437,7 @@ input[type="email"]::placeholder {
 /* ============== TABLET PARTNERS ============== */
 
 .partners-section {
-    padding-bottom: 250px;
+    padding-bottom: 150px;
 }
 
 .partners-top {
@@ -1496,6 +1494,28 @@ input[type="email"]::placeholder {
 
 /* ============== /TABLET PARTNERS ============== */
 
+/* ============== TABLET SUBSCRIBE ============== */
+
+.subscribe-content {
+    border-radius: 4px;
+    max-width: 1055px;
+    gap: 18px;
+    padding: 36px 16px;
+}
+
+.subscribe-text {
+    font-size: 32px;
+    line-height: 1.45;
+}
+
+/* ============== /TABLET SUBSCRIBE ============== */
+
+}
+
+@media screen and (min-width: 1024px) {
+    .subscribe-section {
+        margin-top: 150px;
+    }
 }
 
 @media screen and (min-width: 1440px) {
@@ -1832,5 +1852,37 @@ input[type="email"]::placeholder {
 }
 
 /* ============== /DESKTOP PARTNERS ============== */
+
+/* ============== DESKTOP SUBSCRIBE ============== */
+
+.subscribe-section {
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.subscribe-container {
+    height: 185px;
+}
+
+.subscribe-content {
+    max-width: 1200px;
+    flex-direction: row;
+    padding: 34.5px 74px;
+    gap: 167px;
+}
+
+.subscribe-text {
+    font-size: 40px;
+    max-width: 520px;
+    height: 116px;
+    text-align: left;
+}
+
+.subscribe-form-employers {
+    width: 365px;
+    height: 56px;
+}
+
+/* ============== /DESKTOP SUBSCRIBE ============== */
  
 }
