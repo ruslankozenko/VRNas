@@ -1147,6 +1147,63 @@ input[type="email"]::placeholder {
 
 /* ============== /MOBILE SUBSCRIBE ============== */
 
+/* ============== MOBILE FOOTER ============== */
+
+.footer-vr {
+   background: url(./images/footer/image-wave-mob.png) bottom no-repeat;
+}
+
+.footer-navigation {
+    display: flex;
+    gap: 52px;
+    margin-bottom: 56px;
+}
+
+.footer-social-list {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px 100px;
+    padding-bottom: 30px;
+        border-bottom: 1px solid #fff;
+}
+
+.footer-content-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.footer-content-title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.75;
+    color: #fff;
+    padding-bottom: 16px;
+}
+
+.footer-menu-link {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.75;
+    color: #fff;
+}
+
+.footer-copyright {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.75;
+    color: #fff;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+/* ============== /MOBILE FOOTER ============== */
+
 @media screen and (min-width: 768px) {
 
 .container {
