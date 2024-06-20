@@ -1109,22 +1109,40 @@ body {
 }
 
 .subscribe-form-employers {
+    display: flex;
+    flex-direction: column;
     width: 100%;
-    height: 56px;
     position: relative;
 }
 
-.subscribe-input-employers {
+.subscribe-input {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.75;
+    color: #fff;
     width: 100%;
-    height: 100%;
     padding: 15px 62px 15px 48px;
-    background: rgba(255, 255, 255, 0.07);
     border-radius: 2px;
     border: 0;
-    font-weight: 400;
-        font-size: 16px;
-        line-height: 1.75;
-        color: #fff;
+    transition: border-color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    outline: 0px solid transparent;
+    background: url(./icon/subscribe/envelope.svg) 15px rgba(255, 255, 255, 0.07) no-repeat;
+}
+
+input[type="email"]::placeholder {
+    color: #fff;
+}
+
+.subscribe-button {
+    content: "";
+    position: absolute;
+    top: 7%;
+    right: 1%;
+    padding: 16px;
+    width: 49px;
+    height: 49px;
+    border: 0;
+    background: url(./icon/subscribe/airplane.svg) center rgba(255, 255, 255, 0.21) no-repeat;
 }
 
 
