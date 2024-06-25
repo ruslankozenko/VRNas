@@ -1229,6 +1229,20 @@ input[type="email"]::placeholder {
     color: #0cbaf1;
 }
 
+.footer-icon-location {
+    background: url(./icon/icon-footer/location.svg) left no-repeat;
+    padding-left: 25px;
+}
+
+.footer-icon-mail {
+    background: url(./icon/icon-footer/message.svg) left no-repeat;
+    padding-left: 25px;
+}
+
+.footer-icon-telefon {
+    background: url(./icon/icon-footer/calling.svg) left no-repeat;
+    padding-left: 25px;
+}
 
 .footer-top {
     border-bottom: 1px solid #FFF;
